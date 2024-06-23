@@ -210,29 +210,6 @@
   <h1 class="glitchy">Crypto Clicker</h1>
 </div>
 
-<div class="content">
-  <Container title="[eco footprint]" grow={1}>
-    <InfoJuicer padding={true} />
-    <span
-      ><button on:click={cycleDust}>🌌</button><button on:click={cycleStars}
-        >🌠</button
-      ></span
-    >
-    <InfoJuicer>
-      <div class="space">
-        <div
-          class=" space_content space__dust"
-          style={`background-image: url("/assets/dust/${dust}.png")`}
-        />
-        <div
-          class="space_content space__stars"
-          style={`background-image: url("/assets/stars/${stars}.png")`}
-        />
-        <div
-          class="space_content space__planet"
-          style={`background-image: url("/assets/planets/${planet}.gif")`}
-        />
-      </div>
       <span class="highscore_box"
         >{"highscore: " + $highscore.toFixed(5) + "₿"}</span
       >
